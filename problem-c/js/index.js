@@ -103,7 +103,6 @@ function mostPassingGame(game) {
 }
 console.log(mostPassingGame(huskyGames2016));
 
-
 //It would be useful to be able to apply multiple "filter criteria" to an array
 //of games at once.
 //To support this, define a function `makeCombinedFilter()` that takes two 
@@ -131,7 +130,6 @@ let fumbledAndLostFilter = makeCombinedFilter(huskiesLost, gameHasFumble);
 //Log out the array of games lost with fumbles.
 let lostWithFumblesGames = huskyGames2016.filter(fumbledAndLostFilter);
 console.log(lostWithFumblesGames);
-
 
 //OPTIONAL extra practice: create a variable `avgScoreDifference` that
 //represents the average number of points UW scored _over_ their opponent
